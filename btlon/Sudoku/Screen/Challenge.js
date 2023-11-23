@@ -28,7 +28,7 @@ function Challenge({navigation}) {
             <View style={{alignItems: "center", justifyContent: "center"}}> 
                 <Pressable onPress={()=> navigation.navigate('GamePlay')}>
                     <Text style={{display: "flex", width: 350, height: 40,alignItems: "center", justifyContent: "center", backgroundColor: "#2E86ED", color: "#F1FFFF", borderRadius: 20}}>Chơi</Text>
-                </Pressable>
+                </Pressable> 
             </View>
         </View>
     );
