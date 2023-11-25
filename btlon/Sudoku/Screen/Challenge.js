@@ -6,7 +6,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 function Challenge({navigation}) {
-    const [value, setValue] = React.useState(dayjs('2023-11-23'));
+    const [value, setValue] = React.useState(dayjs('2023-11-26'));
 
     return (
         <View style={styles.container}>
